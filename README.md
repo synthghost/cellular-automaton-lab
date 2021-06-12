@@ -2,6 +2,8 @@
 
 A Middle-earth-simulating cellular automaton.
 
+![](cover.png)
+
 ## Getting Things Running
 
 ### Terminal Execution
