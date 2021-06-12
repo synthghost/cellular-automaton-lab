@@ -21,11 +21,6 @@ import java.awt.event.ActionListener;
 public class Render extends JPanel implements ActionListener {
 
     /**
-     * The serialization version for the class.
-     */
-    private static final long serialVersionUID = 1L;
-
-    /**
      * The window's width.
      */
     public static final int WIDTH = Math.max(Config.getInt("render.width", 720), 100);
@@ -39,6 +34,11 @@ public class Render extends JPanel implements ActionListener {
      * The window object.
      */
     public static final JFrame window = new JFrame();
+
+    /**
+     * The serialization version for the class.
+     */
+    private static final long serialVersionUID = 1L;
 
     /**
      * The size of cells drawn to the canvas.
